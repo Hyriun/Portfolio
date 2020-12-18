@@ -1,0 +1,57 @@
+{
+    margin:  0px;
+    padding: 0px;
+}
+
+nav{
+    width: 100%;
+    margin: 0px auto 0px auto;
+    background-color: #2E495F;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav li
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+nav a
+{
+    display: block; 
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover
+{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+#Bienvenue
+{
+	position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Petit Formal Script', cursive;
+  color: #FFFFFF;
+}
+body
+{
+    background-color: beige;
+    background-image: url(Image/tech.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    font-family: 'Petit Formal Script', cursive;
+}
